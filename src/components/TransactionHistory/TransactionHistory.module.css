@@ -1,0 +1,36 @@
+table {
+  table-layout: fixed;
+  width: 100%;
+  margin: 50px auto;
+  border-collapse: collapse;
+  border-radius: 5px;
+  box-shadow: 1px 4px 5px 0px #969baa;
+  overflow: hidden;
+}
+
+thead {
+  background-color: rgb(112, 184, 207);
+  color: white;
+}
+
+th {
+  border-right: solid 1px white;
+}
+
+th:last-child {
+  border: none;
+}
+
+th,
+td {
+  padding: 20px;
+  text-align: center;
+}
+
+td {
+  color: dimgrey;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(227, 233, 233);
+}
